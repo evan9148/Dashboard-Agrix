@@ -101,7 +101,7 @@ exports.GetFarmers = async (req,res) => {
 
 
 
-// get api by Farmer id ...
+// get api by Farmer id..!
 exports.getFarmersName = async (req,res) => {
     try {
         const getfarmername = await NewFarmers.findOne({FarmerId: req.params.FarmerId})
