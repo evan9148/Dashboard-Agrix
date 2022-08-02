@@ -3,7 +3,7 @@ const NewCluster = db.newCluster;
 const {objectId} = require("mongodb");
 const cluster = require("../models/cluster");
 
-//  Post api for Cluster..!
+//  Post api for Cluster...!
 exports.CreateCluster = async (req,res) => {
     const {ClusterCode,clusterid,ClusterManager,AddVillages,District,State,OfficeAddress,ContactDetails,ClusterLevelStat: 
         [{
