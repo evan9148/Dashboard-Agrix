@@ -3,7 +3,7 @@ const NewFarmers = db.newFarmers;
 const {objectId} = require("mongodb");
 
 
-// Post api for farmer...!
+// Post api for farmer..!
 exports.CreateFarmers = async (req,res) => {
     const {FirstName,LastName,OwnerType,Address,FarmingSeason,CropType,Crop_SubType,plotArea,FarmerId} = req.body
     try {
